@@ -1,0 +1,29 @@
+.footer {
+    padding: 15px;
+    min-height: 25px;
+    background: #37474f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main {
+    margin: 20px 0;
+    overflow:auto;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.header {
+    padding: 15px;
+    min-height: 50px;
+    position: sticky;
+    top: 0;
+    background: #37474f;
+    z-index: 10;
+}
+
+.button-container {
+    text-align: start;
+}
