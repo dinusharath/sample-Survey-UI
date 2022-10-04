@@ -5,12 +5,10 @@ import { Grid } from '@mui/material';
 import './AuthLayout.css'
 
 export interface IPageLayoutProps {
-  footer?: ReactNode;
   children: ReactNode;
 }
 
 export const AuthLayout: React.FC<IPageLayoutProps> = ({
-  footer,
   children
 }) => {
   const mainRef = useRef<HTMLDivElement>();
